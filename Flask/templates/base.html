@@ -7,16 +7,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<title>i'm ABOUT it</title>
+<title>Home is where this title goes</title>
+</head>
+<body>
 <nav>
-   <ul>
+    <ul>
     <li><a href="{{url_for('index')}}">Home</a></li>
     <li><a href="{{url_for('about')}}">About</a></li>
     <li><a href="{{url_for('contact')}}">contact</a></li>
     </ul>
 </nav>
-</head>
-<body>
-<h2>whats this about?</h2>
+
+{%block content%}
+{%end content%}
 </body>
 </html>
